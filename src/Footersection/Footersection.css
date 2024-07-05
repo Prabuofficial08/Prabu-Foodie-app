@@ -1,0 +1,121 @@
+.footer{
+    margin-top: 400px;
+}
+
+.contactsec{
+
+    width:100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 800px;
+}
+.contactsection1 h1{
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 70px;
+    color:#4C4C4C;
+}
+
+.contactsection2 input{
+
+    width:700px;
+    height:80px;
+    border-radius:100px;
+    border: none;
+    background-color:white;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right:252px;
+   
+    color:hsla(0, 0%, 55%, 0.64);
+    transition: 0.8s;
+
+}
+.contactsection2 button{
+
+    width:160px;
+    height: 50px;
+    position: absolute;
+    margin-top:-65px;
+    margin-left: 175px;
+    border-radius: 100px;
+    border: none;
+    background-color: hsl(36, 99%, 52%);
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.5s;
+}
+
+.contactsection2 button:hover{
+    background-color: hsl(36, 99%, 45%);
+    
+}
+.contactsection2 :hover{
+    border: 2px solid hsl(36, 99%, 85%) ;
+}
+
+
+.footer2{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+    margin-top: -600px;
+    margin-bottom: 10px;
+
+   
+}
+.footer2con1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px; 
+    padding: 20px;
+}
+.footer2con1 h3{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color:#303030;
+
+}
+.footer2con1 .icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color:#585858;
+    
+}
+
+.footer2con2{
+    width: 500px;
+    height: 200px;
+    margin-left: 150px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.footer2con2 {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    padding: 20px;
+    justify-content: space-between;
+   
+}
+.footer2con2 li{
+    font-size:13.5px ;
+    color:#4C4C4C;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}

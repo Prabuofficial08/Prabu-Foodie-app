@@ -1,0 +1,90 @@
+.Testimonalsec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+
+
+.testimonalsection{
+    width:650px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+   margin-top: 100px;
+}
+
+.testimonalsectioncontainer1 {
+   
+    width:550px;
+    height: 200px;
+}
+.testimonalsectioncontainer1 h3{
+    color:hsl(36, 99%, 52%);
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 26px;
+}
+.testimonalsectioncontainer1 h1{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #4C4C4C;
+
+}
+
+.testimonalsectioncontainer1 p{
+    font-weight: 600;
+    font-size: 20px;
+    color:#828282;
+}
+
+.testimonalsectioncontainer2 {
+    width: 660px;
+    background-color: white;
+    height: 370px;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 40px;
+    
+
+}
+
+.testimonalsectioncontainer2 img{
+    scale: 0.7;
+    margin-top: -30px;
+}
+
+.testimonalsectioncontainer2 p{
+
+   font-weight: 600;
+   font-size: 20px;
+   color:#515151;
+   letter-spacing: 1px;
+   font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+   
+}
+.testimonalsectioncontainer2 icon{
+    
+    font-size: 26px;
+    color:hsl(36, 99%, 52%);
+    
+}
+
+.testimonalsectioncontainer2 h3{
+    font-size: 20px;
+    color:#1C1C1C;
+    margin-top: 20px;
+   
+}

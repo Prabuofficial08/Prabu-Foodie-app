@@ -1,0 +1,126 @@
+.sideimage img{
+
+    margin-top: 220px;
+    width: 240px;
+    height: 750px;
+    z-index: 3;
+    
+
+}
+
+.foodimage2{
+
+    position: absolute;
+    z-index: 5;
+    top:1060px;
+    margin-left: 40px;
+    
+   
+
+}
+.foodimage2 img{
+    width: 500px;
+    height: 500px;
+}
+.aboutsectioncontainer{
+    width:700px;
+    height:400px;
+    position: absolute;
+    right:-10px;
+    top:1000px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 20px 20px 20px;
+
+}
+.aboutsectioncontainer h3{
+    color: hsl(36, 99%, 52%);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.48px;
+    margin-bottom: 15px;
+   
+}
+.aboutsectioncontainer h1{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+    width: 80%;
+    letter-spacing: 2px;
+    color:#4C4C4C;
+}
+.p1{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    padding-right: 150px;
+
+
+}
+.p2{
+    font-size:20px;
+    font-weight: 600px;
+    margin-bottom: 50px;
+    padding-right: 89px;
+
+
+}
+.aboutsectioncontainerCTA{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutsectioncontainerCTA1{
+
+    width:220px;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(36, 99%, 52%);
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    transition: background-color 0.5s;
+}
+
+.aboutsectioncontainerCTA1:hover{
+    background-color: hsl(36, 99%, 45%) ;
+}
+.aboutsectioncontainerCTA2{
+    width:60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color:hsl(0, 0%, 28%);
+    color:white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+    cursor: pointer;
+    transition:background-color 0.5s;
+    
+}
+.aboutsectioncontainerCTA2:hover{
+
+    background-color:hsl(0, 0%, 20%) ;
+   
+    
+}
+
+.watchvideo{
+    position: absolute;
+    right:160px;
+    top:455px;
+    font-size: 20px;
+    font-weight: 600;
+    color: hsla(0, 0%, 28%, 0.71);
+}
+
